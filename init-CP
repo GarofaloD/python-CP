@@ -1,25 +1,14 @@
 class Student: //Class definition  
- 
- def __init__(self, name, grade, age): 
+  
+  def __init__(self, name, grade, age): 
+    self.name = name
+    self.grade = grade
+    self.age = age
     
-  self.name = name
-    
-  self.grade = grade
-    
-  self.age = age
-    
-
-
 kitty = Student('kitty', 85, 30)
-
 daniel = Student('Daniel',80, 35)
-
 sarah = Student('Sarah', 81, 32 )
 
-
-
 print(kitty.name)
-
 print(daniel.grade)
-
 print(sarah.age)
